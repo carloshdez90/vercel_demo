@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  console.log("Variable:", process.env.NEXT_PUBLIC_CLIENT_KEY);
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +13,7 @@ export default function Home() {
       <main>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
-          <p>Variable: {process.env.NEXT_PUBLIC_ENV_NAME}</p>
+          <p>Variable: {process.env.NEXT_PUBLIC_CLIENT_KEY}</p>
         </h1>
 
         <p className={styles.description}>
