@@ -2,4 +2,4 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
 ---
 
-debug 1
+debug 4
