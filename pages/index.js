@@ -6,15 +6,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>QA BRANCH</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
-          <p>BETA BRANCH: #1</p>
-          <p>Variable BETA: {process.env.NEXT_PUBLIC_CLIENT_KEY}</p>
+          <p>QA BRANCH: #1</p>
+          <p>Variable QA: {process.env.NEXT_PUBLIC_CLIENT_KEY}</p>
         </h1>
 
         <p className={styles.description}>
