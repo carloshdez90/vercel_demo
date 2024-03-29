@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
-          <p>QA BRANCH: TAG AAA - COMMIT 1</p>
+          <p>QA BRANCH: TAG AAA - COMMIT 2</p>
           <p>Variable QA: {process.env.NEXT_PUBLIC_CLIENT_KEY}</p>
         </h1>
 
